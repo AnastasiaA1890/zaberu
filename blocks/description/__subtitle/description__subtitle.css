@@ -1,0 +1,31 @@
+.description__subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+.description__subtitle:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .description__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .description__subtitle:last-child {
+    padding-bottom: 30px;
+  }
+  .description__subtitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .description__subtitle {
+    font-size: 14px;
+  }
+}

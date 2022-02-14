@@ -1,0 +1,19 @@
+.description__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 724px) {
+  .description__text {
+    max-width: 80%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .description__text {
+    max-width: 100%;
+  }
+}

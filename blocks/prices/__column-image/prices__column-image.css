@@ -1,0 +1,7 @@
+.prices__column-image {
+  display: block;
+  width: 78px;
+  position: absolute;
+  right: -30px;
+  top: -30px;
+}

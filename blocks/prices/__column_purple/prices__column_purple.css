@@ -1,0 +1,10 @@
+.prices__column_purple {
+  box-shadow: 0px 0px 15px rgba(196, 194, 197, 0.6);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #9C59B4;
+  color: white;
+  position: relative;
+}

@@ -1,0 +1,14 @@
+.header__logo {
+  display: block;
+  background-image: url("../../../images/logo.svg");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 105px;
+
+}
+
+@media screen and (max-width: 800px) {
+  .header__logo {
+    background-image: url("../../../images/logo_white.svg");
+  }
+}

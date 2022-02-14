@@ -1,0 +1,30 @@
+.description__title {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 900;
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  .description__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .description__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .description__title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .description__title {
+    font-size: 20px;
+  }
+}

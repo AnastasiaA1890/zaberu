@@ -1,0 +1,25 @@
+.header__button {
+  position: relative;
+  width: 228px;
+  height: 46px;
+  background-color: #1E2024;
+  border-radius: 10px;
+  transition: transform .5s ease-in-out;
+}
+
+.header__button:hover {
+  transform: translate(0, 5px);
+}
+
+@media screen and (max-width: 800px) {
+  .header__button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  .header__button {
+    width: 210px;
+    height: 42px;
+  }
+}

@@ -1,0 +1,22 @@
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid rgba(156, 89, 180, .6);
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer__social {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .footer__social {
+    border-left: none;
+    padding-left: 0;
+  }
+}

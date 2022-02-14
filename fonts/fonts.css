@@ -1,0 +1,19 @@
+/* Cabin regular*/
+@font-face {
+  src: url("./Roboto-Regular.ttf");
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("./Roboto-Bold.ttf");
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("./Roboto-Black.ttf");
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+

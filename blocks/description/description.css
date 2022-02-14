@@ -1,0 +1,10 @@
+.description {
+  padding: 87px 0;
+  background-color: #FAFAFA;
+}
+
+@media screen and (max-width: 607px) {
+  .description {
+    padding: 50px;
+  }
+}

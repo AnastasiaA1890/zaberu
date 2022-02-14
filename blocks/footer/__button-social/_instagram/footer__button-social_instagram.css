@@ -1,0 +1,15 @@
+.footer__button-social_instagram {
+  display: block;
+  background-image: url("../../../../images/instagram-black.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.footer__button-social_instagram:hover {
+  background-image: url("../../../../images/instagram-color.svg");
+  background-size: 25px;
+}

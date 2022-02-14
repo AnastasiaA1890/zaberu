@@ -1,0 +1,21 @@
+.footer__link {
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #878A8E;
+}
+
+.footer__link:nth-child(3) {
+  padding-bottom: 89px;
+}
+
+.footer__link:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 724px) {
+  .footer__link:nth-child(3) {
+    padding-bottom: 25px;
+  }
+}

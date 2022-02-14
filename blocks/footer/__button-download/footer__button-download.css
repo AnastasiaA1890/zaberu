@@ -1,0 +1,8 @@
+.footer__button-download {
+  width: 130px;
+  height: 42px;
+}
+
+.footer__button-download:hover {
+  opacity: .6;
+}
