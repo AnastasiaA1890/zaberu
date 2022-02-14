@@ -17,9 +17,6 @@
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/burger/__menu/burger__menu.css);
 @import url(../blocks/burger/__link/burger__link.css);
-@import url(../blocks/burger/__link-1/burger__link-1.css);
-@import url(../blocks/burger/__link-2/burger__link-2.css);
-@import url(../blocks/burger/__link-3/burger__link-3.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__wrapper/description__wrapper.css);
 @import url(../blocks/description/__illustration/description__illustration.css);

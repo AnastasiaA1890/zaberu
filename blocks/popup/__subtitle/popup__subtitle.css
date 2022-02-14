@@ -6,3 +6,15 @@
   color: white;
   text-align: center;
 }
+
+@media screen and (max-width: 750px) {
+  .popup__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .popup__subtitle {
+    font-size: 12px;
+  }
+}

@@ -10,3 +10,15 @@
   box-shadow: 0 0 25px rgba(0, 0, 0, .15);
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 750px) {
+  .popup__container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .popup__container {
+    width: 250px;
+  }
+}
