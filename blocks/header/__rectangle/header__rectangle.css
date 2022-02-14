@@ -4,11 +4,16 @@
   top: 0;
   width: 396px;
   height: 100vh;
-  min-height: 600px;
   max-height: 756px;
   background-color: #8848A0;
   border-radius: 70px 0 0 70px;
   z-index: -1;
+}
+
+@media screen and (max-width: 900px) {
+  .header__rectangle {
+    max-height: 600px;
+  }
 }
 
 @media screen and (max-width: 800px) {
