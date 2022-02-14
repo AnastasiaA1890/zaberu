@@ -14,10 +14,18 @@ const licenseCloseButton = document.querySelector('#license .popup__close-button
 //OpenPopup function
 function openPopup(element) {
     element.classList.add('popup_opened');
+    element.addEventListener('click', closePopupOverlay);
 }
 //ClosePopup function
 function closePopup(element) {
     element.classList.remove('popup_opened');
+    element.removeEventListener('click', closePopupOverlay);
+}
+
+function closePopupOverlay(evt) {
+    if (evt.target === evt.currentTarget) {
+        closePopup(evt.target);
+    }
 }
 
 //Event handlers
